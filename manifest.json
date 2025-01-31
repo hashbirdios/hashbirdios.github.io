@@ -3,17 +3,17 @@
   "name": "옛날바람 도구",
   "icons": [
     {
-      "src": "ic.ico",
+      "src": "oldbaramtools.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "192.png",
+      "src": "oldbaramtools.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "512.png",
+      "src": "oldbaramtools.png",
       "type": "image/png",
       "sizes": "512x512"
     }
