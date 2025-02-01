@@ -1,1 +1,0 @@
-(()=>{let e,t,s=0,a=!1;self.onmessage=function(n){const{action:l,time:o}=n.data;"start"===l?a||(t=Date.now()-(o||0),a=!0,e=setInterval((()=>{s=Date.now()-t,self.postMessage({time:s})}),100)):"pause"===l?(a=!1,clearInterval(e)):"reset"===l&&(a=!1,clearInterval(e),s=0,self.postMessage({time:0}))}})();
