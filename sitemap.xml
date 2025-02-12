@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<!-- <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>https://oldbaramtools.com/</loc>
@@ -42,6 +42,52 @@
     </url>
         <url>
         <loc>https://oldbaramtools.com/stopwatch</loc>
+        <priority>0.8</priority>
+    </url>
+</urlset> -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://oldbaramtools.com/#/</loc>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://oldbaramtools.com/#/update</loc>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://oldbaramtools.com/#/monster</loc>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://oldbaramtools.com/#/item</loc>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://oldbaramtools.com/#/mix</loc>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://oldbaramtools.com/#/magic</loc>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://oldbaramtools.com/#/quest</loc>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://oldbaramtools.com/#/BU</loc>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://oldbaramtools.com/#/calculator</loc>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://oldbaramtools.com/#/dpsCalc</loc>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://oldbaramtools.com/#/stopwatch</loc>
         <priority>0.8</priority>
     </url>
 </urlset>
