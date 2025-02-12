@@ -6,13 +6,16 @@
     <script>
         (function() {
             var path = window.location.pathname;
-            if (path !== "/") {
-                window.location.replace("/" + path);
-            }
+            var search = window.location.search;
+            var hash = window.location.hash;
+            
+            // 기존 URL 유지하면서 SPA 방식으로 리다이렉트
+            var newUrl = window.location.origin + "/?" + path + search + hash;
+            window.location.replace(newUrl);
         })();
     </script>
 </head>
 <body>
-    <p>Redirecting</p>
+    <p>Redirecting...</p>
 </body>
 </html>
