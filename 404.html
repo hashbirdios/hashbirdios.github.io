@@ -10,7 +10,7 @@
             var hash = window.location.hash;
             
             // 기존 URL 유지하면서 SPA 방식으로 리다이렉트
-            var newUrl = window.location.origin + "/?" + path + search + hash;
+            var newUrl = window.location.origin + path + search + hash;
             window.location.replace(newUrl);
         })();
     </script>
